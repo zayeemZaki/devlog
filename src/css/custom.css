@@ -28,3 +28,44 @@
   --ifm-color-primary-lightest: #a7cdea;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Keep footer links in a horizontal layout on larger screens. */
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer__col {
+  width: auto;
+  margin-bottom: 0;
+}
+
+.footer__items {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.footer__links > .footer__col:last-child {
+  text-align: right;
+}
+
+.footer__links > .footer__col:last-child .footer__items {
+  justify-content: flex-end;
+}
+
+@media (max-width: 996px) {
+  .footer__links {
+    display: block;
+  }
+
+  .footer__col {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .footer__items {
+    display: block;
+  }
+}

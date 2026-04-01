@@ -29,6 +29,7 @@ const config: Config = {
       'classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.ts',
         },
         blog: false, // Disabled the blog feature to keep the focus strictly on your notes
@@ -45,40 +46,25 @@ const config: Config = {
     },
     navbar: {
       title: 'Zayeem\'s DevLog',
-      items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'notesSidebar',
-          position: 'left',
-          label: 'Notes',
-        },
-        {
-          href: 'https://zayeemzaki.com',
-          label: 'Portfolio',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/zayeemZaki',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
+      items: [],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
           items: [
             {
-              label: 'TypeScript DevLog',
-              to: '/docs/typescript/intro',
+              label: 'DevLog by Zayeem',
+              to: '/',
             },
           ],
         },
         {
-          title: 'Connect',
           items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/zayeemZaki',
+            },
             {
               label: 'Portfolio',
               href: 'https://zayeemzaki.com',
