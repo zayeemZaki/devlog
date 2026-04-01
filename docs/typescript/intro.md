@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /typescript/intro
 ---
 
-# TypeScript DevLog Intro
+# Intro
 
 This section is a structured engineering wiki of my TypeScript learnings and implementation notes.
 
@@ -17,9 +17,10 @@ It captures practical patterns, design decisions, and debugging insights from re
 
 ## Sources and Credit
 
+
 These notes are heavily informed by:
 
-- [TypeScript Deep Dive](https://basarat.gitbook.io/typescript)
 - [Type Challenges](https://github.com/type-challenges/type-challenges?tab=readme-ov-file)
+- [Official TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) 
 
 I use both as references, then document my own understanding and approach in a project-focused format.
