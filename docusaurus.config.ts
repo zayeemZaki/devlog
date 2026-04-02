@@ -66,12 +66,16 @@ const config: Config = {
               href: 'https://github.com/zayeemZaki',
             },
             {
+              label: 'Exercism',
+              href: 'https://exercism.org/profiles/zayeemZaki',
+            },
+            {
               label: 'Portfolio',
               href: 'https://zayeemzaki.com',
             },
             {
               label: 'LinkedIn',
-              href: 'https://www.linkedin.com/in/zayeemzaki/',
+              href: 'https://www.linkedin.com/in/zayeem-zaki',
             },
           ],
         },
