@@ -31,6 +31,13 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
+    {
+      type: 'category',
+      label: 'JavaScript',
+      items: [
+        'javascript/intro',
+      ],
+    },
   ],
 };
 

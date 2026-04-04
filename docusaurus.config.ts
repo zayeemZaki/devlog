@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Zayeem\'s DevLog',
   tagline: 'Engineering notes from my journey building and learning.',
-  favicon: 'img/ts-logo-512.svg',
+  favicon: 'img/logo.png',
 
   future: {
     v4: true, 
