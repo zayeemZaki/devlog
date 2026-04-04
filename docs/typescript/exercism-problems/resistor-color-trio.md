@@ -10,11 +10,12 @@ hide_title: true
 	<span style={{ fontSize: '0.8rem', fontWeight: 400 }}><em>2026-04-02</em></span>
 </h1>
 
+My Solution: [Exercism Resistor Color Trio exercise](https://exercism.org/tracks/typescript/exercises/resistor-color-trio/solutions/zayeemZaki)
+
+## Instructions
+
 This exercise decodes 3 resistor color bands into a human-readable value label, like `33 ohms` or `67 megaohms`.
 
-Source: [Exercism Resistor Color Trio exercise](https://exercism.org/tracks/typescript/exercises/resistor-color-trio)
-
-## Problem
 
 ```text
 black: 0
@@ -87,8 +88,8 @@ expect(decodedResistorValue(['yellow', 'violet', 'yellow'])).toEqual('470 kilooh
 expect(decodedResistorValue(['blue', 'violet', 'blue'])).toEqual('67 megaohms');
 ```
 
-## Notes
+## Mental Model
 
-- `COLORS.indexOf(...)` maps each band color to its numeric digit.
-- The third color is used as a power of 10 to append zeros.
-- Repeatedly dividing by 1000 selects the correct metric prefix for the final label.
+The Base Value: Use indexOf to map the first two colors to their corresponding digits. The third color's index acts as the exponent for base 10 (10 ** index), giving us the total raw ohm value.
+
+The Metric Prefix: Instead of writing a messy chain of if/else statements for kilo, mega, and giga, I mapped the prefixes to an array. A while loop continuously divides the raw value by 1000, bumping the array index each time until we land on the correct metric label.
