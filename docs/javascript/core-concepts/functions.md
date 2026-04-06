@@ -104,6 +104,36 @@ alert(sum(1, 2)); // 3
 
 If an arrow function uses curly braces `{}`, you must write an explicit `return` to return a value.
 
+## Constructor Function
+
+Constructor functions are named with a capital letter and should be called only with the `new` operator.
+
+```javascript
+function User(name) {
+  this.name = name;
+  this.isAdmin = false;
+}
+
+let user = new User("Jack");
+
+alert(user.name); // Jack
+alert(user.isAdmin); // false
+```
+
+This is how a constructor function executes internally:
+
+```javascript
+function User(name) {
+  // this = {};  (implicitly)
+
+  // add properties to this
+  this.name = name;
+  this.isAdmin = false;
+
+  // return this;  (implicitly)
+}
+```
+
 ## Quick Summary
 
 - Function declarations are hoisted and can be used before they appear in code.
@@ -111,3 +141,4 @@ If an arrow function uses curly braces `{}`, you must write an explicit `return`
 - Callbacks are functions passed as arguments to control later behavior.
 - Arrow functions are concise function expressions.
 - Multiline arrow functions need an explicit `return`.
+- Constructor functions use `new`, create an object via `this`, and return it implicitly.
