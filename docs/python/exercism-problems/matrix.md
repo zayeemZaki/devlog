@@ -7,7 +7,7 @@ hide_title: true
 
 <h1 style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
 	<span>Matrix</span>
-	<span style={{ fontSize: '0.8rem', fontWeight: 400 }}><em>2026-04-26</em></span>
+	<span style={{ fontSize: '0.8rem', fontWeight: 400 }}><em>2026-04-27</em></span>
 </h1>
 
 My Solution: [Exercism Matrix solution](https://exercism.org/tracks/python/exercises/matrix/solutions/zayeemZaki)
