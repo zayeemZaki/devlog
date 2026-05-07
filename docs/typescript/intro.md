@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-slug: /
+slug: /typescript/intro
 title: Intro
 sidebar_label: Intro
 hide_title: true
