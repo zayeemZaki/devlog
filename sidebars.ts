@@ -49,12 +49,12 @@ const sidebars: SidebarsConfig = {
       label: 'LLD',
       items: [
         'lld/intro',
-        'lld/strategy-pattern',
-        'lld/factory-method',
-        'lld/decorator-pattern',
-        'lld/observer-pattern',
-        'lld/singleton-pattern',
-        'lld/parking-lot-lld',
+        // 'lld/strategy-pattern',
+        // 'lld/factory-method',
+        // 'lld/decorator-pattern',
+        // 'lld/observer-pattern',
+        // 'lld/singleton-pattern',
+        // 'lld/parking-lot-lld',
       ],
     },
     {
