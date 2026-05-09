@@ -55,7 +55,7 @@ const sidebars: SidebarsConfig = {
           items: [
             'lld/parking-lot/strategy-pattern',
             'lld/parking-lot/factory-method',
-            // 'lld/parking-lot/decorator-pattern',
+            'lld/parking-lot/decorator-pattern',
             // 'lld/parking-lot/observer-pattern',
             // 'lld/parking-lot/singleton-pattern',
             // 'lld/parking-lot/parking-lot-lld',
