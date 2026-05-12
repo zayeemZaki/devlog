@@ -58,7 +58,7 @@ const sidebars: SidebarsConfig = {
             'lld/parking-lot/decorator-pattern',
             'lld/parking-lot/observer-pattern',
             'lld/parking-lot/singleton-pattern',
-            // 'lld/parking-lot/parking-lot-lld',
+            'lld/parking-lot/parking-lot-lld',
           ],
         },
           // {
