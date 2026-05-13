@@ -10,7 +10,6 @@ hide_title: true
 	<span style={{ fontSize: '0.8rem', fontWeight: 400 }}><em>2026-05-13</em></span>
 </h1>
 
-## Deep Dive: Weather Dashboard (Adapter Pattern)
 
 The Adapter Pattern is a structural design pattern that allows two incompatible interfaces to work together.
 
