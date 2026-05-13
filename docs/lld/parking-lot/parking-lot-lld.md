@@ -7,7 +7,7 @@ hide_title: true
 
 <h1 style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
 	<span>Parking Lot LLD</span>
-	<span style={{ fontSize: '0.8rem', fontWeight: 400 }}><em>2026-05-06</em></span>
+	<span style={{ fontSize: '0.8rem', fontWeight: 400 }}><em>2026-05-12</em></span>
 </h1>
 
 ## Deep Dive: Parking Lot LLD (Factory + Strategy + Decorator + Observer + Singleton)
