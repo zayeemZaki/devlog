@@ -26,6 +26,7 @@ Engineering notes from my journey building and learning.
 - [LinkedIn](https://www.linkedin.com/in/zayeem-zaki)
 - [LeetCode](https://leetcode.com/u/zayeem_zaki/)
 - [Exercism](https://exercism.org/profiles/zayeemZaki)
+- [YouTube - AlgoAcez](https://www.youtube.com/@AlgoAcez)
 
 ## What this site is for
 
